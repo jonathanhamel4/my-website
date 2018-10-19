@@ -10,7 +10,8 @@
     "test:dev": "ng test --browsers Chrome",
     "test:watch": "ng test --browsers Chrome --watch",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:server": "node server/server.js"
   },
   "private": true,
   "dependencies": {
@@ -29,11 +30,17 @@
     "@ngx-translate/core": "^10.0.2",
     "@ngx-translate/http-loader": "^3.0.1",
     "@webcomponents/custom-elements": "^1.1.2",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
     "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "font-awesome": "^4.7.0",
+    "http": "0.0.0",
     "ng-in-viewport": "^6.0.1",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.2.0",
+    "sequelize": "^4.40.0",
+    "sqlite3": "^4.0.2",
     "typed.js": "^2.0.8",
     "zone.js": "^0.8.26"
   },
